@@ -1,6 +1,8 @@
 # Reverse_TCP_Program
 Reverse TCP program written in python.
 
+This program is a work in progress, I will continue to update the code as much as I can. I will create executable files for each python file to make it easier to use.
+
 ## Setup
 
 **Client.py**
