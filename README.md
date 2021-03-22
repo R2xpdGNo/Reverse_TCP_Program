@@ -20,6 +20,7 @@ R2xpdGNo@proton.com
 ## TODO
 - Add List Proccess Payload
 - Add Image sending Payload
+- Create API for all payloads
 
 ## Disclaimer
 All materialcas, source code, and guides are for educational purposes only and should not be used for malicious intent.
