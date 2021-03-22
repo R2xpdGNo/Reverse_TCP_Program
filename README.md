@@ -14,6 +14,7 @@ SERVER_HOST: IP address of the machine you are running this program on. It must 
 SERVER_PORT: Choose whatever port you wish to open a tcp connection on. Make sure "Client.py" port is the same as your "Server.py" port.
 
 ## Contact
+Feel Free to email me with any questions:
 R2xpdGNo@proton.com
 
 ## TODO
