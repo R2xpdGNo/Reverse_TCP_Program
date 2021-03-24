@@ -25,4 +25,4 @@ R2xpdGNo@proton.com
 - Create API for all payloads
 
 ## Disclaimer
-All materialcas, source code, and guides are for educational purposes only and should not be used for malicious intent.
+This tool is provided for educational and research purposes only. The authors of this project are no way responsible for any misuse of this tool.
