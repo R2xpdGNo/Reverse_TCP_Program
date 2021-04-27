@@ -15,6 +15,13 @@ Port: Choose whatever port you wish to open a tcp connection on. Make sure "Clie
 SERVER_HOST: IP address of the machine you are running this program on. It must be your internal address
 SERVER_PORT: Choose whatever port you wish to open a tcp connection on. Make sure "Client.py" port is the same as your "Server.py" port.
 
+## List All Running Processes
+List all runing proccesses on client maching and their corresponding pid
+**Setup**
+'pip install psutil'
+'pip install pywin32'
+
+
 ## Contact
 Feel Free to email me with any questions:
 R2xpdGNo@proton.com
