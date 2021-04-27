@@ -20,9 +20,9 @@ Feel Free to email me with any questions:
 R2xpdGNo@proton.com
 
 ## TODO
-- Add List Proccess Payload
-- Add Image sending Payload
-- Create API for all payloads
+- Add List Proccess
+- Add Image sending client
+- Possible create class with all client commands
 
 ## Disclaimer
 This tool is provided for educational and research purposes only. The authors of this project are no way responsible for any misuse of this tool.
