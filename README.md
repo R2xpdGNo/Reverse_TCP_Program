@@ -41,9 +41,16 @@ Feel Free to email me with any questions:
 R2xpdGNo@proton.com
 
 ## TODO
-- Add List Proccess
-- Add Image sending client
+- Add List Proccess (Done)
+- Add Image sending client (Done)
 - Possible create class with all client commands
+- Find UAC Bypass
+- Allow for Server to control multiple Clients
+- add download/upload to move files between server and client
+- mkdir / rmdir
+- show system info
+- shutdown/restart
+- execute
 
 ## Disclaimer
 These tools are provided for educational and research purposes only. The author of this project is in no way responsible for any misuse of these tools.
