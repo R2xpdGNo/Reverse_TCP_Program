@@ -24,6 +24,17 @@ List all runing proccesses on client maching and their corresponding pid
 
 'pip install pywin32'
 
+## Screenshot
+Take screenshot of client machine and send image back to server
+
+**Setup**
+
+'pip install pyautogui'
+
+'pip install Pillow'
+
+pyautogui is used to take screenshot
+Pillow is used to read and save image bytes
 
 ## Contact
 Feel Free to email me with any questions:
