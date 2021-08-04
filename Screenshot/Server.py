@@ -5,8 +5,8 @@ import os
 import io
 from PIL import Image
 
-SERVER_HOST = "10.0.10.6"
-SERVER_PORT = 5003
+SERVER_HOST = HOST
+SERVER_PORT = PORT
 
 BUFFER_SIZE = 1048576
 
