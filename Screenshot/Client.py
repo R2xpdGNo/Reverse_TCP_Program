@@ -5,8 +5,8 @@ import os
 from PIL import Image
 import pyautogui
 
-PROXT_HOST = "10.0.10.6"
-PROXY_PORT = 5003
+PROXT_HOST = HOST
+PROXY_PORT = PORT
 
 BUFFER_SIZE = 1048576
 image = "screenshot.png"
