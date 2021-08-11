@@ -43,8 +43,9 @@ R2xpdGNo@proton.com
 ## TODO
 - Add List Proccess (Done)
 - Add Image sending client (Done)
-- Possible create class with all client commands
-- Find UAC Bypass
+- create class with all commands
+- Find UAC Bypass (Done)
+- Implement UAC Bypass into Client side code
 - Allow for Server to control multiple Clients
 - add download/upload to move files between server and client
 - mkdir / rmdir
