@@ -36,6 +36,18 @@ Take screenshot of client machine and send image back to server
 pyautogui is used to take screenshot
 Pillow is used to read and save image bytes
 
+## upload/download
+upload and download any files between server and client
+
+'upload  LOCATION OF FILE'
+
+'download LOCATION  OF FILE'
+
+any file downloaded or uploaded will be downloaded/uploaded in the same directory of the client or server file
+
+**Setup**
+No additional setup required
+
 ## Contact
 Feel Free to email me with any questions:
 R2xpdGNo@proton.com
@@ -47,7 +59,7 @@ R2xpdGNo@proton.com
 - Find UAC Bypass (Done)
 - Implement UAC Bypass into Client side code
 - Allow for Server to control multiple Clients
-- add download/upload to move files between server and client
+- add download/upload to move files between server and client (Done)
 - mkdir / rmdir
 - show system info
 - shutdown/restart
