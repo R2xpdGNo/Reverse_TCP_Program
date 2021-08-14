@@ -46,6 +46,7 @@ upload and download any files between server and client
 any file downloaded or uploaded will be downloaded/uploaded in the same directory of the client or server file
 
 **Setup**
+
 No additional setup required
 
 ## Contact
@@ -58,12 +59,15 @@ R2xpdGNo@proton.com
 - create class with all commands
 - Find UAC Bypass (Done)
 - Implement UAC Bypass into Client side code
+- Find user to admin privilege escalation
+- Implement user to admin privilege escalation
 - Allow for Server to control multiple Clients
 - add download/upload to move files between server and client (Done)
 - mkdir / rmdir
 - show system info
 - shutdown/restart
 - execute
+- keep track of users current directory to allow for easy upload, download, mkdir, rmdir, and execute
 
 ## Disclaimer
 These tools are provided for educational and research purposes only. The author of this project is in no way responsible for any misuse of these tools.
