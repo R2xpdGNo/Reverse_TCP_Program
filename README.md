@@ -1,19 +1,21 @@
 # Reverse_TCP_Program
 Reverse TCP program written in python.
 
-This program is a work in progress, I will continue to update the code as much as I can. I will create executable files for each python file to make it easier to use.
+This program is a work in progress, I will continue to update the code as much as I can. I will create executable files for each python file to make it easier to use. The program works by having the Client.py initiate a connection to the Server.py. Since the Client.py is initiating the connection the firewall allows the conneciton.
 
 ## Setup
 
 **Client.py**
 
-Host: IP address of the Server. This could be an internal address, such as 192.168.xxx.xxx, or external address
-Port: Choose whatever port you wish to open a tcp connection on. Make sure "Client.py" port is the same as your "Server.py" port.
+HOST: IP address of the Server. This could be an internal address, such as 192.168.xxx.xxx, or external address
 
-***Server.py***
+PORT: Choose whatever port you wish to make a tcp connection on. Make sure the port in both "Client.py" and "Server.py" are the same
 
-SERVER_HOST: IP address of the machine you are running this program on. It must be your internal address
-SERVER_PORT: Choose whatever port you wish to open a tcp connection on. Make sure "Client.py" port is the same as your "Server.py" port.
+**Server.py**
+
+SERVER_HOST: YOUR IP ADDRESS : internal address only
+
+SERVER_PORT: Port you wish to host socket : if using external address, be sure to port forward
 
 ## List All Running Processes
 List all runing proccesses on client maching and their corresponding pid
@@ -43,15 +45,16 @@ upload and download any files between server and client
 
 'download LOCATION  OF FILE'
 
-any file downloaded or uploaded will be downloaded/uploaded in the same directory of the client or server file
+Location of file must be exact locaiton, you cannot simply type 'filename.txt' instead you must give the exact path 'C:\users\username\Deckstop\filename.txt'
+
+This will be changed soon.
 
 **Setup**
 
 No additional setup required
 
 ## Contact
-Feel Free to email me with any questions:
-R2xpdGNo@proton.com
+Feel Free to email me with any questions: R2xpdGNo@proton.com
 
 ## TODO
 - Add List Proccess (Done)
