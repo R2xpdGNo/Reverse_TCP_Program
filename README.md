@@ -71,6 +71,7 @@ Feel Free to email me with any questions: R2xpdGNo@proton.com
 - shutdown/restart
 - execute
 - keep track of users current directory to allow for easy upload, download, mkdir, rmdir, and execute
+- try using a different method of seperating arguments from commands
 
 ## Disclaimer
 These tools are provided for educational and research purposes only. The author of this project is in no way responsible for any misuse of these tools.
