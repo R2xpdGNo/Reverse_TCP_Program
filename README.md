@@ -17,61 +17,74 @@ SERVER_HOST: YOUR IP ADDRESS : internal address only
 
 SERVER_PORT: Port you wish to host socket : if using external address, be sure to port forward
 
-## List All Running Processes
-List all runing proccesses on client maching and their corresponding pid
+## Commands
 
-**Setup**
+<details>
+  <summary>List All Running Processes</summary>
+  
+  
+  List all runing proccesses on client maching and their corresponding pid
 
-'pip install psutil'
+  **Setup**
 
-'pip install pywin32'
+  'pip install psutil'
 
-## Screenshot
-Take screenshot of client machine and send image back to server
+  'pip install pywin32'
 
-**Setup**
+  ## Screenshot
+  Take screenshot of client machine and send image back to server
 
-'pip install pyautogui'
+  **Setup**
 
-'pip install Pillow'
+  'pip install pyautogui'
 
-pyautogui is used to take screenshot
-Pillow is used to read and save image bytes
+  'pip install Pillow'
 
-## upload/download
-upload and download any files between server and client
+  pyautogui is used to take screenshot
+  Pillow is used to read and save image bytes
+</details>
 
-'upload  LOCATION OF FILE'
+---
 
-'download LOCATION  OF FILE'
+<details>
+<summary>upload/download</summary>
+  upload and download any files between server and client
 
-Location of file must be exact locaiton, you cannot simply type 'filename.txt' instead you must give the exact path 'C:\users\username\Deckstop\filename.txt'
+  'upload  LOCATION OF FILE'
 
-This will be changed soon.
+  'download LOCATION  OF FILE'
 
-**Setup**
+  Location of file must be exact locaiton, you cannot simply type 'filename.txt' instead you must give the exact path 'C:\users\username\Deckstop\filename.txt'
 
-No additional setup required
+  This will be changed soon.
+
+  **Setup**
+
+  No additional setup required
+</details>
+
+---
 
 ## Contact
 Feel Free to email me with any questions: R2xpdGNo@proton.com
 
 ## TODO
-- Add List Proccess (Done)
-- Add Image sending client (Done)
-- create class with all commands
-- Find UAC Bypass (Done)
+- ~~Add List Proccess~~
+- ~~Add Image sending client~~
+- create version with all commands
+- ~~Find UAC Bypass~~
 - Implement UAC Bypass into Client side code
 - Find user to admin privilege escalation
 - Implement user to admin privilege escalation
 - Allow for Server to control multiple Clients
-- add download/upload to move files between server and client (Done)
+- ~~add download/upload to move files between server and client~~
 - mkdir / rmdir
 - show system info
 - shutdown/restart
 - execute
 - keep track of users current directory to allow for easy upload, download, mkdir, rmdir, and execute
 - try using a different method of seperating arguments from commands
+- Add User Interface
 
 ## Disclaimer
 These tools are provided for educational and research purposes only. The author of this project is in no way responsible for any misuse of these tools.
