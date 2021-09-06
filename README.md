@@ -20,47 +20,65 @@ SERVER_PORT: Port you wish to host socket : if using external address, be sure t
 ## Commands
 
 <details>
-  <summary>List All Running Processes</summary>
+<summary>List All Running Processes</summary>
   
   
-  List all runing proccesses on client maching and their corresponding pid
+List all runing proccesses on client maching and their corresponding pid
 
-  **Setup**
+**Setup**
 
-  'pip install psutil'
+'pip install psutil'
 
-  'pip install pywin32'
+'pip install pywin32'
 
-  ## Screenshot
-  Take screenshot of client machine and send image back to server
 
-  **Setup**
-
-  'pip install pyautogui'
-
-  'pip install Pillow'
-
-  pyautogui is used to take screenshot
-  Pillow is used to read and save image bytes
 </details>
 
 ---
 
 <details>
 <summary>upload/download</summary>
-  upload and download any files between server and client
+upload and download any files between server and client
 
-  'upload  LOCATION OF FILE'
+'upload  LOCATION OF FILE'
 
-  'download LOCATION  OF FILE'
+'download LOCATION  OF FILE'
 
-  Location of file must be exact locaiton, you cannot simply type 'filename.txt' instead you must give the exact path 'C:\users\username\Deckstop\filename.txt'
+Location of file must be exact locaiton, you cannot simply type 'filename.txt' instead you must give the exact path 'C:\users\username\Desktop\filename.txt'
 
-  This will be changed soon.
+This will be changed soon.
 
-  **Setup**
+**Setup**
 
-  No additional setup required
+No additional setup required
+</details>
+
+---
+
+<details>
+<summary>Screenshot</summary>
+Take screenshot of client machine and send image back to server
+  
+**Setup**
+
+'pip install pyautogui'
+
+'pip install Pillow'
+
+pyautogui is used to take screenshot
+Pillow is used to read and save image bytes
+
+</details>
+
+---
+
+<details>
+<summary>Basic UI Design</summary>
+
+**Setup**
+
+'pip install tkinter'
+
 </details>
 
 ---
